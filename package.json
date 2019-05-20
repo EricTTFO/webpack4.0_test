@@ -1,0 +1,22 @@
+{
+  "name": "webpack4.0_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config=config/webpack.dev.js",
+    "build": "webpack --config=config/webpack.dev.js",
+    "S": "nodemon --inspect --watch config --watch src/server src/server/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EricTTFO/webpack4.0_test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EricTTFO/webpack4.0_test/issues"
+  },
+  "homepage": "https://github.com/EricTTFO/webpack4.0_test#readme"
+}

@@ -1,0 +1,6 @@
+npm install webpack webpack-cli webpack-dev-server -g
+webpack --mode=development
+webpack --mode=production
+webpack --config=config/webpack.dev.js
+npm install webpack webpack-cli webpack-dev-server
+webpack-dev-server --config=config/webpack.dev.js
