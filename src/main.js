@@ -5,7 +5,7 @@
     require('webpack-hot-middleware/client?reload=true')
     require('./main.css')
     require('./index.html')
-    debugger 
+    // debugger 
     // console.log('hello world ')
     // async  更好解决异步问题
     // var a = async args => {

@@ -25,7 +25,7 @@ server.use(webpackDevMiddleware)
 server.use(webpackHotMiddleware)
 
 server.use(staticMiddleware)
-debugger;
+// debugger;
 
 server.listen(3600, () => {
     console.log('server is running.....')
